@@ -84,14 +84,13 @@ body {
 
 .blog-card-text {
   padding: 15px;
-}
-
-.blog-card-text .h5 {
   margin-bottom: 8px;
   color: #000000;
 }
 
-.blog-card-text p {
+
+.blog-card-text2 {
+  padding: 15px;
   font-size: 0.9rem;
   color: #555555;
   margin-bottom: 0;
