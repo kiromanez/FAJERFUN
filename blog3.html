@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAJERFUN</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<input type="checkbox" id="menu-toggle" class="d-none">
+<div class="sidebar p-3">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <a href="index.html" class="btn btn-outline-light w-100 text-start">🏠︎ Strona Główna</a>
+    <label for="menu-toggle" class="btn-close d-lg-none ms-2" data-bs-theme="dark" style="cursor: pointer;"></label>
+  </div>
+
+<hr>
+
+  <div class="sidebar-body">
+    <h4>Linki</h4>
+    <ul class="bullet nav flex-column">
+      <li class="nav-item"><a class="nav-link" href="https://hurtownia-fajerwerki.pl/">Sklep naszego partnera!</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://pl.wikipedia.org/wiki/Pirotechnika">Wiesz coś o pirotechnice? Edytuj na Wikipedii!</a></li>
+      <li class="nav-item"><a class="nav-link" href="http://forum.pirotechnika.one.pl/">Forum pirotechnicze naszego partnera!</a></li>
+    </ul>
+    
+    <br>
+    
+    <p><b>Pamiętaj!</b> <br> Fajerwerki nie są ważniejsze od twojego życia (ani twoich palców!), jeśli jesteś w stanie nietrzeźwości, lub nie jesteś pewny/a bezpieczeństwa artykułów, nie odpalaj.</p>
+                        
+  </div>
+</div>
+    
+    
+<div class="main-content">
+  <header class="header">
+    <h1 class="display-4 fw-bold">FAJERFUN</h1>
+  </header>
+  <div class="p-4">
+    <label for="menu-toggle" class="btn btn-dark d-lg-none mb-4" style="cursor: pointer; box-shadow: 0 2px 3px rgba(0,0,0,0.5);">☰ Menu</label>
+
+    <h1>Fajerfun Showcase 2025 - Formularz</h1>
+    
+    <p class="lead">Dziękujemy wszystkim którzy uczęścili nasz trzeci coroczny Fajerfun Showcase! W zeszłym roku, dostaliśmy wiele emaili dzielących się swoimi opiniami i sugestiami, więc w tym roku zrobiliśmy jeden formularz dla was, by nam pomóc zrobić następny Showcase jeszcze lepszy.</p>
+
+    <div class="bg-light p-4 border rounded mt-4">
+      <form action="#" method="get">
+
+        <div class="mb-4">
+          <label class="form-label fw-bold">1. Czy to był twój pierwszy Showcase? <span class="text-danger">*</span></label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pytanie1" id="p1_tak" value="Tak" required>
+            <label class="form-check-label" for="p1_tak">Tak</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pytanie1" id="p1_nie" value="Nie" required>
+            <label class="form-check-label" for="p1_nie">Nie</label>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label class="form-label fw-bold">2. Czy podarowałeś/aś fajerwerki, lub przekazałeś/aś pieniądze na 2025 Showcase? <span class="text-danger">*</span></label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pytanie2" id="p2_tak" value="Tak" required>
+            <label class="form-check-label" for="p2_tak">Tak</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pytanie2" id="p2_nie" value="Nie" required>
+            <label class="form-check-label" for="p2_nie">Nie</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pytanie2" id="p2_wole_nie" value="Wolę nie odpowiadać" required>
+            <label class="form-check-label" for="p2_wole_nie">Wolę nie odpowiadać</label>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label class="form-label fw-bold">3. Czy Twoim zdaniem w 2025 Showcase było równomierne rozłożenie efektów i kolorów fajerwerków? <span class="text-danger">*</span></label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pytanie3" id="p3_tak" value="Tak" required>
+            <label class="form-check-label" for="p3_tak">Tak</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pytanie3" id="p3_nie" value="Nie" required>
+            <label class="form-check-label" for="p3_nie">Nie</label>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label for="pytanie4" class="form-label fw-bold">4. Jeśli Twoim zdaniem było jakiegoś efektu/koloru w 2025 Showcase za dużo/za mało, napisz tu czego.</label>
+          <textarea class="form-control" id="pytanie4" name="pytanie4" rows="3" placeholder="Wpisz swoją odpowiedź..."></textarea>
+        </div>
+
+        <div class="mb-4">
+          <label class="form-label fw-bold">5. Co Ci się najbardziej podobało w 2025 Showcase?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie5" id="p5_1" value="Początek pokazu">
+            <label class="form-check-label" for="p5_1">Początek pokazu</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie5" id="p5_2" value="Środek przedstawienia">
+            <label class="form-check-label" for="p5_2">Środek przedstawienia</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie5" id="p5_3" value="Koniec przedstawienia">
+            <label class="form-check-label" for="p5_3">Koniec przedstawienia</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie5" id="p5_4" value="Poznanie innych entuzjastów fajerwerków">
+            <label class="form-check-label" for="p5_4">Poznanie innych entuzjastów fajerwerków</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie5" id="p5_5" value="Poczęstunki">
+            <label class="form-check-label" for="p5_5">Poczęstunki</label>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label class="form-label fw-bold">6. Co Ci się najmniej podobało w 2025 Showcase?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie6" id="p6_1" value="Początek pokazu">
+            <label class="form-check-label" for="p6_1">Początek pokazu</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie6" id="p6_2" value="Środek przedstawienia">
+            <label class="form-check-label" for="p6_2">Środek przedstawienia</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie6" id="p6_3" value="Koniec przedstawienia">
+            <label class="form-check-label" for="p6_3">Koniec przedstawienia</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie6" id="p6_4" value="Poznanie innych entuzjastów fajerwerków">
+            <label class="form-check-label" for="p6_4">Poznanie innych entuzjastów fajerwerków</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="pytanie6" id="p6_5" value="Poczęstunki">
+            <label class="form-check-label" for="p6_5">Poczęstunki</label>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label for="pytanie7" class="form-label fw-bold">7. Jeśli masz jakiekolwiek inne wrażenia/opinie, o których chcesz nam powiedzieć, a nie pasują do innych pytań, powiedz nam tu!</label>
+          <textarea class="form-control" id="pytanie7" name="pytanie7" rows="4" placeholder="Twoja opinia..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-dark btn-lg w-100 mt-2">Wyślij Formularz</button>
+
+      </form>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
