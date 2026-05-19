@@ -86,7 +86,7 @@ body {
   padding: 15px;
 }
 
-.blog-card-text h5 {
+.blog-card-text .h5 {
   margin-bottom: 8px;
   color: #000000;
 }
